@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">KAMISETTY GREESHMA SRI</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">KAMISETTY GREESHMA SRI</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.jpeg" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">KAMISETTY GREESHMA SRI</h1>
+        <p class="section__text__p2">SOFTWARE Developer </p>
+        <div class="btn-container">
+          
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/kamisetty-greeshma-sri-9a48a11b2/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/iamgreeshma'"
+          />
+        </div>
+        <div id="tech-stack">
+          <h4>Tech Stack - JAVA | HTML | CSS | JAVASCRIPT | TAILWIND | REACTJS </h4>
+
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>INTERNSHIP</h3>
+              <p>3 MONTHS <br />EBIXCASH-INTERN OPERATOR<br /> Worked on Spring Fame Work</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Malla reddy institude of engineering and techonology<br />Btech CSE (2023)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am passionate about building interactive web experiences. I also hold a Full Stack Data Scientist certificate.
+               Beyond coding,I am good in teamwork and leadership,honed through roles as student coordinator and R&D team head
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">SKILLS</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">WEB Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+        
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind</h3>
+              
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+              
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3> React.js</h3>
+            
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node.js</h3>
+                
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Other</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C/C++</h3>
+          
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JAVA</h3>
+            
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+            
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AI, NLP</h3>
+          
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ML</h3>
+          
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+          
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">TWO GOOD CO.</h2>
+            <P>An animated website created with HTML, CSS, JavaScript, and GSAP that is a dynamic and visually engaging online platform.
+              With this combination of technologies, the website can feature stunning animations such as fading effects, transitions,
+               parallax scrolling, and more. 
+            </P>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/iamgreeshma/two-good-Co'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://iamgreeshma.github.io/two-good-Co/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">MEME MARKET</h2>
+            <P> A Website to demonstrate the memes , that can be a picture, video, GIF.an animated website created using HTML, 
+              CSS, JavaScript, and GSAP is a modern and dynamic online experience that grabs the attention of visitors and enhances their interaction with the site's content.
+            </P>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/iamgreeshma/MemeMarket'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://iamgreeshma.github.io/MemeMarket/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/project-3.png"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">FOODIE</h2>
+                <P>"Foodie" is a restaurant landing page built with React, a popular JavaScript
+                   library for building user interfaces. This landing page showcases the restaurant's offerings and encourages visitors to explore further or make a reservation.</P>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/iamgreeshma/rest-first'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://iamgreeshma.github.io/rest-first/'"
+                  >
+                    Live Demo
+                  </button>
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/project-4.png"
+                    alt="Project 2"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">QUIZ</h2>
+                <P>Quiz is an interactive and engaging quiz website
+                   that combines fun gaming elements with educational content. Users can test their knowledge on various topics while racing against the clock.</P>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/iamgreeshma/Quiz-app'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://iamgreeshma.github.io/Quiz-app/'"
+                  >
+                    Live Demo
+                  </button>
+                </div>
+              </div>
+              <div class="experience-details-container">
+                <div class="about-containers">
+                  <div class="details-container color-container">
+                    <div class="article-container">
+                      <img
+                        src="./assets/project-5.png"
+                        alt="Project 1"
+                        class="project-img"
+                      />
+                    </div>
+                    <h2 class="experience-sub-title project-title">TEXT TO SPEECH</h2>
+                    <p>A text-to-speech converter is a tool or application that takes
+                       written text as input and produces spoken audio output. It uses speech synthesis technology to generate human-like speech from the provided text using JavaScript</p>
+                    <div class="btn-container">
+                      <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/iamgreeshma/text-to-speech'"
+                      >
+                        Github
+                      </button>
+                      <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://iamgreeshma.github.io/text-to-speech/'"
+                      >
+                        Live Demo
+                      </button>
+                    </div>
+                  </div>
+                  <div class="details-container color-container">
+                    <div class="article-container">
+                      <img
+                        src="./assets/project-6.jpeg"
+                        alt="Project 2"
+                        class="project-img"
+                      />
+                    </div>
+                    <h2 class="experience-sub-title project-title">FIRE DETECTION</h2>
+                    <P>Fire detection using machine learning involves training algorithms 
+                      to recognize patterns in visual data that indicate the presence of fire . The fire is detected in live using openCV.
+                    So, can use in cctv</P>
+                    <div class="btn-container">
+                      <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/iamgreeshma/Fire-Detection'"
+                      >
+                        Github
+                      </button>
+                      
+                    </div>
+                  </div>
+              
+          
+
+
+
+
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+
+
+
+
+
+
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">greeshmakamisetty007@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/kamisetty-greeshma-sri-9a48a11b2">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Greeshma Sri. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
